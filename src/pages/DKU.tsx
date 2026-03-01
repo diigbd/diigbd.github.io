@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { Roster } from "@/components/Roster";
 
 const DKU = () => {
   return (
@@ -21,6 +22,8 @@ const DKU = () => {
             </p>
           </div>
         </section>
+
+        <Roster division="dku" />
       </main>
       <Footer />
     </div>

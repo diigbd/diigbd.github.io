@@ -17,9 +17,12 @@ interface Member {
 
 const ROLE_ORDER = [
   "DIRECTORS",
+  "ADVISORS",
   "PROJECT MANAGERS",
   "OPERATIONS",
+  "SENIOR ANALYSTS",
   "ANALYSTS",
+  "BUSINESS DEVELOPMENT",
 ] as const;
 
 function getRoleGroup(role: string): string {
@@ -27,7 +30,10 @@ function getRoleGroup(role: string): string {
   if (lower.includes("director")) return "DIRECTORS";
   if (lower.includes("pm") || lower.includes("project manager"))
     return "PROJECT MANAGERS";
+  if (lower.includes("advisor")) return "ADVISORS";
   if (lower.includes("operations")) return "OPERATIONS";
+  if (lower.includes("senior analyst")) return "SENIOR ANALYSTS";
+  if (lower.includes("business development")) return "BUSINESS DEVELOPMENT";
   return "ANALYSTS";
 }
 
