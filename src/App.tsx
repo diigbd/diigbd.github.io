@@ -24,7 +24,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/DIIG-Master-Website">
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
