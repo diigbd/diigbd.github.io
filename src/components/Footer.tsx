@@ -11,7 +11,7 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center mb-4">
               <img
-                src="/diig-logo.png"
+                src={`${import.meta.env.BASE_URL}diig-logo.png`}
                 alt="DIIG Logo"
                 className="h-10 w-auto"
               />

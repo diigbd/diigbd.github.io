@@ -10,7 +10,7 @@ interface Client {
 const ClientLogo = ({ client }: { client: Client }) => (
   <div className="w-36 h-36 md:w-44 md:h-44 shrink-0 rounded-md overflow-hidden flex items-center justify-center p-2">
     <img
-      src={`/logos/${client.logo}`}
+      src={`${import.meta.env.BASE_URL}logos/${client.logo}`}
       alt={client.name}
       className="max-w-full max-h-full object-contain"
     />

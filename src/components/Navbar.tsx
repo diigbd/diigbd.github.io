@@ -32,7 +32,11 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src="/diig-logo.png" alt="DIIG Logo" className="h-10 w-auto" />
+            <img
+              src={`${import.meta.env.BASE_URL}diig-logo.png`}
+              alt="DIIG Logo"
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

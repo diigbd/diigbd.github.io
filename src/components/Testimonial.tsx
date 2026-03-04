@@ -10,7 +10,7 @@ export const Testimonial = () => {
             {/* Client Logo */}
             <div className="flex-shrink-0">
               <img
-                src="../produce-box-logo.png"
+                src={`${import.meta.env.BASE_URL}produce-box-logo.png`}
                 alt="The Produce Box Logo"
                 className="w-64 h-64 rounded-full object-cover"
               />

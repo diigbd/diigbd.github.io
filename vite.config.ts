@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   // GitHub Pages project site: https://diigbd.github.io/DIIG-Master-Website/
-  base: "/DIIG-Master-Website",
+  base: "/DIIG-Master-Website/",
 
   server: {
     host: "::",

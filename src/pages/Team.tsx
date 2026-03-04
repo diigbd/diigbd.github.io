@@ -42,7 +42,7 @@ const Team = () => {
                   {/* Bigger avatar */}
                   <Avatar className="w-44 h-44 mx-auto mb-6">
                     <AvatarImage
-                      src={`/team/${member.name.split(" ")[0]}.jpeg`}
+                      src={`${import.meta.env.BASE_URL}team/${member.name.split(" ")[0]}.jpeg`}
                       alt={member.name}
                     />
                     <AvatarFallback className="text-3xl font-display font-bold bg-primary text-primary-foreground">
@@ -84,7 +84,7 @@ const Team = () => {
                   {/* Bigger avatar */}
                   <Avatar className="w-24 h-24 mx-auto mb-4">
                     <AvatarImage
-                      src={`/team/${member.name.split(" ")[0]}.jpeg`}
+                      src={`${import.meta.env.BASE_URL}team/${member.name.split(" ")[0]}.jpeg`}
                       alt={member.name}
                     />
                     <AvatarFallback className="text-xl font-display font-bold bg-primary text-primary-foreground">
