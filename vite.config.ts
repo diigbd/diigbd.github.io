@@ -2,8 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 export default defineConfig({
-  // GitHub Pages project site: https://diigbd.github.io/DIIG-Master-Website/
-  base: "/DIIG-Master-Website/",
+  base: "/",
 
   server: {
     host: "::",
