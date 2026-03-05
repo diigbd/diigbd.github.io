@@ -81,8 +81,8 @@ export const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Duke Impact Investing Group. All
-            rights reserved.
+            © {new Date().getFullYear()} Duke Impact Investing Group. All rights
+            reserved.
           </p>
         </div>
       </div>
