@@ -51,16 +51,10 @@ Copy the JSON output and replace the `roster` export in `src/data.js`.
 
 ## Formatting with Prettier
 
-It is recommended to format sourcecode files with Prettier. Install it on your system:
+It is recommended to format sourcecode files with Prettier before pushing with the following command:
 
 ```bash
-npm install -g prettier
-```
-
-Then you can format files with:
-
-```bash
-prettier -w .
+npx prettier . --write
 ```
 
 ---
